@@ -1,0 +1,47 @@
+﻿@charset "UTF-8";
+body {
+			background-color: peachpuff;
+}
+
+h1 {
+		background-color: firebrick;
+		border: 4px dashed ivory; 
+		color: ivory;
+		padding: 1em;
+		border-radius: 8px;
+		box-shadow: 0 0 0 4px firebrick;
+		font-size: 3em;
+		font-family: sans-serif;
+}
+
+h2 {
+		border-left:4px solid teal;
+		padding-left: 8px;
+		font-size: 2em;
+		color: teal;
+		font-family: sans-serif;
+}
+
+h3 {
+		font-size: 1.5em;
+		color: darkolivegreen;
+		font-family: sans-serif;
+}
+
+h3::before {
+	content: "★";
+}
+
+h3::after {
+		content: "★";
+}
+
+.description {
+		font-size: 1em;
+		font-family: serif;
+		color: dimgray;
+		line-height: 1.5;
+		text-indent: 1em;
+		text-align: justify;
+		padding-left: 1em;
+}

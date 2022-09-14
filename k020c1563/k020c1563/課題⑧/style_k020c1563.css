@@ -1,0 +1,46 @@
+﻿@charset "UTF-8";
+body {
+			background-color: darkseagreen;
+			font-family: sans-serif;
+}
+
+li {
+	line-height: 2em;
+}
+h1 {
+	background-color: darkgreen;
+	border: 4px dashed ivory;
+	box-shadow: 0 0 0 5px darkgreen;
+	font-size: 4em;
+	color: ivory;
+	padding: 0.5em;
+}
+
+h2 {
+		padding: 0.5em;
+		font-size: 2em;
+		color: ivory;
+		background-color: darkgreen;
+}
+
+.description{
+		line-height: 1.5em;
+		text-indent: 1em;
+}
+
+dt {
+	padding: 0.5em 1em;
+}
+
+a:link {
+	color: darkslategray;
+}
+
+a:visited {
+	color: maroon;
+}
+
+footer div {
+	width: 440px;
+	margin:auto;
+}
