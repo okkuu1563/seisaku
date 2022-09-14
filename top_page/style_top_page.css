@@ -1,0 +1,84 @@
+@charset "UTF-8"; 
+/* 本文の基本スタイル */ 
+body { 
+font-family: "Kosugi Maru", sans-serif; 
+} 
+/* Web サイトのタイトルのスタイル */ 
+#site_title { 
+border: 2px solid #228e22; 
+border-radius: 8px; 
+position: relative; 
+color: #5a544b; 
+} 
+/* メインタイトルのスタイル */ 
+#main_title { 
+/*border:1px solid black;*/ 
+background-color: #193f68; 
+text-align: right; 
+font-size: 3em; 
+font-family: "M PLUS Rounded 1c", sans-serif; padding-right: 50px; 
+padding-bottom:50px; 
+position: relative; 
+margin:0px 10px; 
+} 
+/* サブタイトルのスタイル */ 
+#sub_title { 
+/*border:1px solid black;*/ 
+background-color: #193f68; 
+text-align: right; 
+padding-right: 50px; 
+padding-top:50px; 
+font-size: 1em;
+position: relative; 
+margin:0px 10px; 
+} 
+#sub_title_head { 
+font-family: "Lobster Two", sans-serif; 
+margin-right: 1em; 
+} 
+#sub_title_body { 
+font-family: "M PLUS Rounded 1c", sans-serif; } 
+/* スクールキャラクタのスタイル */ 
+#school_character { 
+position: absolute; 
+top: 5px; 
+left: 10px; 
+width: auto; 
+height: 95%; 
+opacity: 0.5; 
+} 
+/* グローバルナビゲーションのスタイル */ #gnavi ul { 
+display: flex; 
+list-style-type: none; 
+/* margin: 0px auto; */ 
+justify-content: center; 
+padding: 0; 
+} 
+#gnavi ul li a { 
+display: block; 
+border: 1px none; 
+border-radius: 8px;
+padding:10px 10px; 
+text-align: center; 
+margin: 5px; 
+width: 200px; 
+line-height: 50px; /* 高さを指定することで、文字を縦方向の中央に配置できる */ background-color: #c2d834; 
+color: ivory; 
+text-decoration: none; 
+font-family: "M PLUS Rounded 1c", sans-serif; 
+} 
+/* パンくずリストのスタイル */ 
+ol.bcrumb { 
+margin: 10px 0; 
+padding 0; 
+list-style-type: none; 
+display: flex; 
+font-family: "M PLUS Rounded 1c", sans-serif; 
+} 
+ol.bcrumb li::after { 
+content: ">"; 
+margin: 0 10px; 
+} 
+ol.bcrumb li:last-child::after { 
+content: none; 
+} 

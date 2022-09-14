@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+font-family: "Kosugi Maru", sans-serif;
+}
+h1{
+    background-color: #193f68;
+color: #5a544b;
+text-align: left;
+font-size: 3em;
+font-family: "M Plus Rounded 1c", sans-serif;
+padding-right: 50px;
+padding-bottom: 50px;
+position: relative;
+margin: 0px 10px;
+}
